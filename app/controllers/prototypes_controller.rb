@@ -29,7 +29,7 @@ class PrototypesController < ApplicationController
     end
   end
 
-
+  
 
   def index
     @prototypes = Prototype.includes(:user)
